@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NubeUnida</title>
+<meta name="description" content="NubeUnida es una app personal que suma el espacio de varias cuentas de Google Drive en una sola nube.">
+<style>
+:root { --bg: #f6f8fc; --card: #ffffff; --text: #17202e; --soft: #55627a; --accent: #2468d8; --line: #dde3ee; }
+@media (prefers-color-scheme: dark) {
+:root { --bg: #0f131a; --card: #171d27; --text: #e8edf6; --soft: #9aa7bd; --accent: #7fb0ff; --line: #283142; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 system-ui, "Segoe UI", Roboto, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 48px 20px 64px; }
+.logo { width: 72px; height: 72px; border-radius: 18px; background: linear-gradient(135deg, #408cff, #1646be); display: grid; place-items: center; }
+h1 { font-size: 2.2rem; margin: 20px 0 6px; }
+h2 { font-size: 1.25rem; margin: 36px 0 8px; }
+p.lead { color: var(--soft); font-size: 1.15rem; margin: 0 0 8px; }
+ul { padding-left: 22px; }
+li { margin: 6px 0; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px; margin-top: 16px; }
+a { color: var(--accent); }
+footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--soft); font-size: 0.95rem; }
+</style>
+</head>
+<body>
+<main>
+<div class="logo" aria-hidden="true">
+<svg width="46" height="46" viewBox="0 0 24 24" fill="#fff"><path d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"/></svg>
+</div>
+<h1>NubeUnida</h1>
+<p class="lead">Una nube personal que suma el espacio de varias cuentas de Google Drive.</p>
+<h2>Qué es</h2>
+<p>NubeUnida es una aplicación de uso personal para Windows y Android. Permite vincular varias cuentas de Google y usar su espacio de Drive como si fuera uno solo: cada archivo se guarda repartido entre las cuentas y la aplicación lo vuelve a unir al abrirlo o exportarlo.</p>
+<h2>Qué hace con tu cuenta de Google</h2>
+<div class="card">
+<ul>
+<li>Pide un solo permiso: ver y administrar <strong>únicamente los archivos que la propia aplicación crea</strong> en tu Google Drive (permiso <code>drive.file</code>).</li>
+<li>No puede ver tus otros archivos de Drive, tu correo, tus fotos ni tus contactos.</li>
+<li>Guarda sus archivos en una carpeta llamada "NubeUnida" dentro de tu propio Drive.</li>
+<li>No tiene servidores propios: los datos van directo de tu dispositivo a tu Google Drive.</li>
+</ul>
+</div>
+<h2>Funciones</h2>
+<ul>
+<li>Suma el espacio libre de todas las cuentas vinculadas.</li>
+<li>Verifica cada archivo al subirlo y al bajarlo para detectar daños.</li>
+<li>Puede guardar copias en cuentas distintas para no perder nada si una cuenta falla.</li>
+<li>Carpetas, búsqueda, papelera y exportación de archivos.</li>
+</ul>
+<h2>Privacidad</h2>
+<p>La aplicación no recopila, vende ni comparte datos. El detalle está en la <a href="privacidad.html">Política de Privacidad</a>.</p>
+<footer>
+NubeUnida · aplicación personal sin fines comerciales · <a href="privacidad.html">Política de Privacidad</a>
+</footer>
+</main>
+</body>
+</html>
